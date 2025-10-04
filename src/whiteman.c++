@@ -1,3 +1,32 @@
+/**
+ * @file whiteman.c++
+ * @brief File to generate executable that takes elements of two sequence types
+ * and returns those 4-sets forming a summable set with out-of-phase periodic
+ * autocorrelations summing to -4.
+ *
+ * File to generate executable that takes elements of two sequence types and
+ * returns those 4-sets forming a summable set with out-of-phase periodic
+ * autocorrelations summing to -4.
+ *
+ * <dl>
+ * <dt><strong>Usage</strong></dt>
+ * <dd>./whiteman N num1 num2 file1 file2</dd>
+ * </dl>
+ * <strong>Parameters</strong>
+ * <ul>
+ * <li><strong>N --</strong> length of sequences</li>
+ * <li><strong>num1 --</strong> number of sequences in file1</li>
+ * <li><strong>num2 --</strong> number of sequences in file2</li>
+ * <li><strong>file1 --</strong> file containing sequences of first type and
+ * their psds</li>
+ * <li><strong>file2 --</strong> file containing sequences of second type and
+ * their psds</li>
+ * </ul>
+ *
+ * @author Thomas Pender
+ * @date 10/2025
+ * @copyright GNU Public License
+ */
 # include <iostream>
 # include <sstream>
 # include <fstream>

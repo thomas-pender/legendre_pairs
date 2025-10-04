@@ -1,3 +1,26 @@
+/**
+ * @file amicable.c++
+ * @brief File to generate executable that takes complementary 4 sets and
+ * exhaustively searches for whether each set can be transformed into an amicable
+ * set.
+ *
+ * File to generate executable that takes complementary 4 sets and exhaustively
+ * searches for whether each set can be transformed into an amicable set. The
+ * executable reads from stdin.
+ *
+ * <dl>
+ * <dt><strong>Usage</strong></dt>
+ * <dd>./amicable N</dd>
+ * <dl>
+ * <strong>Parameters</strong>
+ * <ul>
+ * <li><strong>N --</strong> length of sequences being read in</li>
+ * </ul>
+ *
+ * @author Thomas Pender
+ * @date 10/2025
+ * @copyright GNU Public License
+ */
 # include <iostream>
 # include <sstream>
 # include <vector>

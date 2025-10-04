@@ -1,3 +1,24 @@
+/**
+ * @file A.c++
+ * @brief File to generate unlabelled binary bracelets of fixed content satisfying
+ * the psd test.
+ *
+ * File to generate unlabelled binary bracelets of fixed content satisfying
+ * the psd test.
+ *
+ * <dl>
+ * <dt><strong>Usage</strong></dt>
+ * <dd>./A N</dd>
+ * </dl>
+ * <strong>Parameters</strong>
+ * <ul>
+ * <li><strong>N --</strong> length of sequences being generated</li>
+ * </ul>
+ *
+ * @author Thomas Pender
+ * @date 10/2025
+ * @copyright GNU Public License
+ */
 # include <sstream>
 
 # include <args.h++>
