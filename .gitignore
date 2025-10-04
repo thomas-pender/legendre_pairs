@@ -21,3 +21,5 @@ tests/
 aclocal.m4
 
 !Doxyfile.in
+!configure.ac
+!Makefile.am
